@@ -19,7 +19,7 @@ async function getQuote() {
             authorText.innerHTML = data.quoteAuthor;
         }
 
-        //reduce font size  for long quotes
+        //reduce font size  for long quotesss
         if (data.quoteText.length > 50) {
             quoteText.classList.add('long-quote');
         } else {
